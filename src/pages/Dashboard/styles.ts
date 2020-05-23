@@ -93,3 +93,15 @@ export const TableContainer = styled.section`
     }
   }
 `;
+
+export const Button = styled.button`
+  border: 0;
+  background: #e83f5b;
+  color: #fff;
+  border-radius: 4px;
+  padding: 5px 7px;
+
+  &:hover {
+    filter: brightness(0.9);
+  }
+`;
